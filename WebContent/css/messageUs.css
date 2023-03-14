@@ -1,0 +1,55 @@
+.input-style {
+  width: 60%;
+  padding: 12px 20px;
+  margin-left:20%;
+  box-sizing: border-box;
+  border: none;
+  background-color:white;
+  color: black;
+  font-size: 16px;
+  outline: 2px solid Black;
+}
+
+input[type=text]:focus, textarea:focus,button:focus{
+  outline: 2px solid orange;
+  background-color:rgb(224, 255, 219);     /* oranges! yey */
+}
+
+textarea
+{
+	height: 250px;
+	font-size: 16px;
+}
+
+.button {
+  background-color: black; /* Green */
+  border: none;
+  color: white;
+  padding: 12px 20px;
+  text-align: center;
+  
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  
+  outline: 2px solid Black;
+  margin-left:20%;
+  font-size: 16px;
+}
+
+.button:hover {
+  background-color: #E64848;
+  color: black;
+  outline: 2px solid Black;
+}
+
+hr
+{
+	width: 60%
+}
+
+h3
+{
+	text-align: center;
+	color: white;
+}

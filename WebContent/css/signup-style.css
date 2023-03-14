@@ -1,0 +1,153 @@
+body {
+  background-color: #ffffff;
+  font: 1em Helvetica;
+}
+
+* {box-sizing: border-box;}
+    
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    
+    
+    .mess{
+    overflow: hidden;
+    background-color:  #FBC252;
+    
+    }
+    
+    .mess h2{
+    margin-top: 0;
+    padding:5px 2px;
+    text-align: center;
+    display: block;
+    margin-top: 15px;
+    text-decoration: none;
+    
+    }
+    
+    
+#container {
+  width: 840px;
+  margin: 25px auto;
+  margin-top: 30px;
+}
+
+.whysign {
+  float: left;
+  background-color: #A3BB98;
+  width: 480px;
+  height: 530px;
+  border-radius: 0 5px 5px 0;
+  padding-top: 20px;
+  padding-right: 20px;
+}
+.whysignLogin
+{
+	float: left;
+	
+  background-color: #A3BB98;
+  width: 480px;
+  height: 361px;
+  border-radius: 0 5px 5px 0;
+  padding-top: 20px;
+  padding-right: 20px;
+  
+}
+.whyforgotPassword
+{
+	float: left;
+  background-color: #A3BB98;
+  width: 480px;
+  height: 477px;
+  border-radius: 0 5px 5px 0;
+  padding-top: 20px;
+  padding-right: 20px;
+}
+.signup {
+  float: left;
+  width: 300px;
+ 
+  padding: 30px 20px;
+  background-color: #A3BB98;
+  text-align: center;
+  border-radius: 5px 0 0 5px;
+}
+
+
+[type=text],[type=email],[type=number],[type=password],select,option {
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+  border: 0;
+  border-bottom: 1px solid rgba(0,0,0,.2);
+  height: 45px;
+  line-height: 45px;  
+  margin-bottom: 10px;
+  font-size: 1em;
+  color: black;
+  outline: 2px solid Black;
+}
+
+[type=submit] {
+  margin-top: 25px;
+  
+  width: 80%;
+  border: 0;
+  background-color: #000000;
+  border-radius: 5px;
+  height: 50px;
+  color: white;
+  
+  font-weight: 400;
+  font-size: 1em;
+}
+
+[type=submit]:hover{
+	 background-color: #E64848;
+  color: black;
+  
+  outline: 2px solid Black;
+}
+
+[type='text']:focus {
+  outline: none;
+  border-color: #53CACE;
+}
+
+h1 {
+  color: Black;
+  font-weight: 900;
+  font-size: 2.5em;
+}
+
+p {
+  color: rgba(0,0,0,.6);
+  font-size: 1.2em;
+  margin: 50px 0 50px 0;
+}
+
+
+a{
+	color: Black;
+}
+
+span {
+  font-size: .75em;
+  background-color: white;
+  padding: 2px 5px;
+  color: rgba(0,0,0,.6);
+  border-radius: 2px;
+  box-shadow: 1px 1px 1px rgba(0,0,0,.3);
+  margin: 5px;
+}
+
+span:hover {
+  color: #53CACE;
+}
+
+p:nth-of-type(2) {
+  font-size: 1em;
+}
